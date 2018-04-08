@@ -1,0 +1,18 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+#header{
+	height:40px;
+	width:100%;
+	background-color: lightblue;
+	padding: 20px 0px;
+}
+
+#header-content{
+	padding-left: 10px;
+	font-family: Helvetica;
+	font-size:30px;
+	color: #e6bbad;
+}
