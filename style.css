@@ -1,16 +1,22 @@
 *{
 	padding:0px;
 	margin:0px;
-  }  
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 
 body{
-	background: linear-gradient(260deg, #F896FB, #89E4F9);
+	height: auto;
+	min-height: 100%;
+	background: linear-gradient(270deg, #F896FB 10%, #89E4F9 100%);
 }
 
 #home{
 	height:40px;
 	width:100%;
 	padding: 20px 0px;
+
+	border: 0px solid red;
 }
 
 #logo{
@@ -21,18 +27,21 @@ body{
 
 #main{
 	background-color: white;
-	max-width: 70%;
-	height:450px;
+	max-width: 80%;
+	height:650px;
 	border-radius:15px;
 	margin: 0 auto;
 }
 
 #header{
-	padding: 30px;
-	font-family: Helvetica;
-	font-size:20px;
-	color: #e6bbad;
-	letter-spacing:4px;
+	padding: 50px 0px 30px 25px;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 600;
+	letter-spacing: 5px;
+	color: lightgrey;
+	border: 0px solid red;
+	
 }
 
 #mntn{
@@ -40,16 +49,49 @@ body{
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 30px 10px lightblue;
+    /* box-shadow: 0 0 30px 10px lightblue; */
 }
 
 #search{
+	width: 50%;
+	height: 55px;
+	
 	display: block;
-    margin : 0 auto;
+	color: lightgrey;
+
+	margin : 0 auto;
+	padding-left: 30px; 
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	letter-spacing: 3px;
+
 	border-radius: 30px;
-    border: 1px solid gray;
-    box-shadow: 0 0 15px 5px gray;
-    width: 35%;
-    height: 30px;
-    padding-left: 10px; 
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+
+    border: 0px solid gray;
+	box-shadow: 0 10px 15px 5px #ededed;
+    
+}
+
+input[type=text]{
+	color: lightgrey;
+}
+
+input[type=text]:focus{
+	outline: none;
+}
+
+::placeholder { 
+	color: lightgrey;
+    opacity: 1; 
+}
+
+:-ms-input-placeholder { 
+	color: lightgrey;
+}
+
+::-ms-input-placeholder { 
+    color: lightgrey;
 }
