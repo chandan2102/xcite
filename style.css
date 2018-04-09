@@ -1,38 +1,55 @@
 *{
 	padding:0px;
 	margin:0px;
-	/*background-color: lightblue; /* For browsers that do not support gradients */
   }  
 
 body{
 	background: linear-gradient(260deg, #F896FB, #89E4F9);
 }
 
-#header{
+#home{
 	height:40px;
 	width:100%;
-	/*background-color: lightblue;*/
 	padding: 20px 0px;
 }
 
-#header-content{
-	padding: 20px;
-	font-family: Helvetica;
-	font-size:20px;
-	color: #e6bbad;
+#logo{
+	height: 30px;
+	width: 30px;
+	padding-left: 20px;
 }
 
 #main{
 	background-color: white;
-	max-width: 50%;
+	max-width: 70%;
 	height:450px;
-	/*align: center;*/
 	border-radius:15px;
 	margin: 0 auto;
 }
 
-#Home{
-	height: 60px;
-	width: 55px;
-	padding-left: 20px;
+#header{
+	padding: 30px;
+	font-family: Helvetica;
+	font-size:20px;
+	color: #e6bbad;
+	letter-spacing:4px;
+}
+
+#mntn{
+	max-width: 70%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 30px 10px lightblue;
+}
+
+#search{
+	display: block;
+    margin : 0 auto;
+	border-radius: 30px;
+    border: 1px solid gray;
+    box-shadow: 0 0 15px 5px gray;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px; 
 }
