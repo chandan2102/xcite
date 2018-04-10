@@ -5,10 +5,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 
-body{
+.wrapper{
 	height: auto;
-	min-height: 100%;
-	background: linear-gradient(270deg, #F896FB 10%, #89E4F9 100%);
+	width: 100%;
+	background: linear-gradient(300deg, #F896FB 5%, #D2B0FA 30%, #89E4F9 100%);
+
+	padding-bottom: 200px; 
 }
 
 #home{
@@ -28,7 +30,7 @@ body{
 #main{
 	background-color: white;
 	max-width: 80%;
-	height:650px;
+	height:850px;
 	border-radius:15px;
 	margin: 0 auto;
 }
@@ -94,4 +96,56 @@ input[type=text]:focus{
 
 ::-ms-input-placeholder { 
     color: lightgrey;
+}
+
+#base{
+	height: auto;
+	width: 100%;
+
+	border: 1px solid red;
+	margin: 80px auto;
+	text-align: center;
+}
+
+.card{
+	height: 180px;
+	width: 360px;
+
+	background: orange;
+	display: inline-block;
+	vertical-align: top;
+
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+
+	margin: 4px 2px;
+}
+
+.a{
+	background: red; 
+}
+
+.b{
+	width: 320px;
+	background: navy;
+}
+
+.c{
+	background: mediumvioletred;
+}
+
+.d{
+	width: 320px;
+	background: orange;
+}
+
+.e{
+	width: 340px;
+	background: olive;
+}
+
+.f{
+	width: 380px;
+	background: gold;
 }
