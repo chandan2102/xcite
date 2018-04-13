@@ -63,7 +63,7 @@
 
 #boat{
 	max-width: 30%;
-	height: 200px;
+	height: 216px;
 	display: block;
 
     margin-left: auto;
@@ -74,6 +74,9 @@
 
 	border: 0px solid red;
 	margin-top: -120px;
+
+	position:relative;
+	z-index: 999;
 }
 
 #search{
@@ -124,7 +127,7 @@ input[type=text]:focus{
 	width: 100%;
 
 	border: 0px solid red;
-	margin: 80px auto;
+	margin: 64px auto;
 	text-align: center;
 }
 
