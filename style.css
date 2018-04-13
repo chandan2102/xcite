@@ -84,22 +84,18 @@
 	color: lightgrey;
 
 	margin : 0 auto;
-	padding-left: 30px; 
+	padding-left: 30px;
 
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	letter-spacing: 3px;
 
-	border-radius: 30px;
-	-moz-border-radius: 30px;
+	/*border-radius: 30px;
+	-moz-border-radius: 30px; */
 	-webkit-border-radius: 30px;
 
     border: 0px solid gray;
-	box-shadow: 0 10px 15px 5px #ededed;
-
-	/*background-image:url(images/finder.png);*/
-	background-image: url(images/finder.png) no-repeat scroll 7px 7px;
-	padding-left:30px;    
+	box-shadow: 0 10px 15px 5px #ededed;  
 }
 
 input[type=text]{
@@ -181,21 +177,22 @@ input[type=text]:focus{
 	background-size: cover;
 }
 
-.small-img {
+.summit {
 	height: 55px;
 	max-width: 55px;
     border-radius: 50%;
-    margin-top: -17px;
-	margin-left: 70px;
 }
 
- #dots{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
-	color: lightgrey;
-	letter-spacing: 5px;	
-	margin-top: -36px;
- }
+.dots{
+	width: 30px;
+	height: 25px;
+	margin: 0px 0px 10px 10px;
+}
+
+.prof{
+	position:relative;
+	margin:-50px 0px 0px 56px;
+}
 
 .img1{
 	width: 50px;
@@ -230,15 +227,13 @@ input[type=text]:focus{
 	height: 45px;
 	border-radius: 50%;
 	float:right;
-	/*position:relative;
-	margin: -50px 258px 0px 0px;*/
 	position:absolute;
-	margin: -50px 0px 0px 763px;
+	margin: -50px 0px 0px 772px;
 	background: linear-gradient(300deg, #F896FB 5%, #D2B0FA 30%, #89E4F9 100%);
 }
 
 #x{
-	background: -webkit-linear-gradient(300deg, #F896FB 5%, #D2B0FA 30%, #89E4F9 100%);
+	background: -webkit-linear-gradient(92deg, #F896FD 33%, #D2B0FA 48%, #89E4F8 100%);
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
 
@@ -263,11 +258,11 @@ input[type=text]:focus{
 
 #head1{
 	margin-top: -100px;
-	margin-left: -277px;
+	margin-left: -274px;
 	padding-bottom: 5px;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	letter-spacing: 4px;
 	color: lightgrey;
 	border: 0px solid red;
@@ -291,9 +286,10 @@ input[type=text]:focus{
 }
 
 .bag{
-	width: 23px;
-    height: 23px;
+	width: 25px;
+    height: 25px;
     float: right;
     position: absolute;
-    margin: -39px 0px 0px 695px;
+    margin: -40px 0px 0px 696px;
 }
+
