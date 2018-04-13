@@ -96,7 +96,10 @@
 
     border: 0px solid gray;
 	box-shadow: 0 10px 15px 5px #ededed;
-    
+
+	/*background-image:url(images/finder.png);*/
+	background-image: url(images/finder.png) no-repeat scroll 7px 7px;
+	padding-left:30px;    
 }
 
 input[type=text]{
@@ -191,13 +194,58 @@ input[type=text]:focus{
 }
 
 #head2{
+	margin: -40px auto;
+	width: 100%;
 	font-variant: small-caps;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-	width: 100%;
-	margin: -40px auto;
 	font-size: 100px;
 	letter-spacing: 5px;
 	color: lightgrey;
 	border: 0px solid red;
+}
+
+.small-img {
+	height: 55px;
+	max-width: 55px;
+    border-radius: 50%;
+    margin-top: -17px;
+	margin-left: 70px;
+}
+
+ #dots{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	color: lightgrey;
+	letter-spacing: 5px;	
+	margin-top: -36px;
+ }
+
+.img1{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float:left;
+	margin: 10px 0px 0px 10px;
+}
+
+.desc1{
+	width:100%;
+	text-align :left;
+	font-family: 'Montserrat', sans-serif;
+	font-size :14px;
+	color :white;
+	position:relative;
+	margin-top: 118px;
+	margin-left: 10px;	
+}
+
+.arw{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float:right;
+	position:relative;
+	margin: -45px 12px 0px 0px;
+}
 }
