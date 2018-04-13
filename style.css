@@ -177,3 +177,27 @@ input[type=text]:focus{
 	background: url(images/6.jpg);
 	background-size: cover;
 }
+
+#head1{
+	margin-top: -100px;
+	margin-left: -277px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	letter-spacing: 4px;
+	color: lightgrey;
+	border: 0px solid red;
+}
+
+#head2{
+	font-variant: small-caps;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	margin: -40px auto;
+	font-size: 100px;
+	letter-spacing: 5px;
+	color: lightgrey;
+	border: 0px solid red;
+}
