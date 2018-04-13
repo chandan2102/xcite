@@ -181,30 +181,6 @@ input[type=text]:focus{
 	background-size: cover;
 }
 
-#head1{
-	margin-top: -100px;
-	margin-left: -277px;
-	padding-bottom: 5px;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 12px;
-	letter-spacing: 4px;
-	color: lightgrey;
-	border: 0px solid red;
-}
-
-#head2{
-	margin: -40px auto;
-	width: 100%;
-	font-variant: small-caps;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 100px;
-	letter-spacing: 5px;
-	color: lightgrey;
-	border: 0px solid red;
-}
-
 .small-img {
 	height: 55px;
 	max-width: 55px;
@@ -215,7 +191,7 @@ input[type=text]:focus{
 
  #dots{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 25px;
+	font-size: 40px;
 	color: lightgrey;
 	letter-spacing: 5px;	
 	margin-top: -36px;
@@ -229,7 +205,7 @@ input[type=text]:focus{
 	margin: 10px 0px 0px 10px;
 }
 
-.desc1{
+.desc{
 	width:100%;
 	text-align :left;
 	font-family: 'Montserrat', sans-serif;
@@ -247,4 +223,77 @@ input[type=text]:focus{
 	float:right;
 	position:relative;
 	margin: -45px 12px 0px 0px;
+}
+
+.go{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	float:right;
+	/*position:relative;
+	margin: -50px 258px 0px 0px;*/
+	position:absolute;
+	margin: -50px 0px 0px 763px;
+	background: linear-gradient(300deg, #F896FB 5%, #D2B0FA 30%, #89E4F9 100%);
+}
+
+#x{
+	background: -webkit-linear-gradient(300deg, #F896FB 5%, #D2B0FA 30%, #89E4F9 100%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+
+	margin: -40px 0px 0px -208px;
+	width: 100%;
+	font-size: 100px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#perience{
+	margin: -115px 0px 0px 36px;
+	width: 100%;
+	font-variant: small-caps;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100px;
+	letter-spacing: 5px;
+	color: lightgrey;
+	border: 0px solid red;
+}
+
+#head1{
+	margin-top: -100px;
+	margin-left: -277px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	letter-spacing: 4px;
+	color: lightgrey;
+	border: 0px solid red;
+}
+
+.finder{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	float:left;
+	position:absolute;
+	margin: -42px 0px 0px 266px;
+}
+
+.home{
+	width: 25px;
+	height: 25px;
+	float: right;
+	position:absolute;
+	margin: -40px 0px 0px 630px;
+}
+
+.bag{
+	width: 23px;
+    height: 23px;
+    float: right;
+    position: absolute;
+    margin: -39px 0px 0px 695px;
 }

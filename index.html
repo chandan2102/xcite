@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Xcite App</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css?<?php echo date('l jS \of F Y h:i:s A'); ?>"/> <!-- try to add current date/time to prevent CSS caching  -->
 </head>
 <body>
 	<div class="wrapper">
@@ -14,12 +14,17 @@
 			<p id="header">XCITE</p>
 			<div id="mntn"></div>
 			<p id="head1">NEW</p>
-			<p id="head2">Xperience</p>
+			<p id="x">X</p>
+			<p id="perience">perience</p>
 			<div id="boat"></div>
 
 			<div>
-				<input id="search" type="text" name="destination" placeholder="Destination">
-				<p id="dots"><img class="small-img" src="images/summit.jpg" alt="profile"> . . .</p>
+				<input id="search" type="text" name="destination" placeholder="    Destination">
+				<img class="finder" src="images/finder.png"/>
+				<img class="home" src="images/home.png"/>
+				<img class="bag" src="images/bag.png"/>
+				<img class="go" src="images/go.png"/>
+				<p id="dots"><img class="small-img" src="images/summit.jpg" alt="profile">...</p>
 				
 			</div>		
 
@@ -27,22 +32,31 @@
 				<div class="card a">
 					<img class="img1" src="images/m1.jpg"/>
 					<img class="img1" src="images/f1.jpg"/>
-					<p class="desc1">are flying to <br>WHISTLER BLACK COMB, CANADA <br> DEC 12, 2007 - 6 DAYS</p>
+					<p class="desc">are flying to <br>WHISTLER BLACK COMB, CANADA <br> DEC 12, 2017 - 6 DAYS</p>
 					<img class="arw" src="images/right-arrow.png"/>
 				</div>
 				<div class="card b">
 					<img class="img1" src="images/m1.jpg"/>
-					<p class="desc1">is flying to <br>HANOI, VIETNAM <br> DEC 21, 2007 - 7 DAYS</p>
+					<p class="desc">is flying to <br>HANOI, VIETNAM <br> DEC 21, 2017 - 7 DAYS</p>
 					<img class="arw" src="images/right-arrow.png"/>
 				</div>
 				<div class="card c">
 					<img class="img1" src="images/f1.jpg"/>
-					<p class="desc1">is flying to <br>IBIZA, SPAIN <br> JAN 18, 2008 - 8 DAYS</p>
+					<p class="desc">is flying to <br>IBIZA, SPAIN <br> JAN 18, 2018 - 8 DAYS</p>
 					<img class="arw" src="images/right-arrow.png"/>
 				</div>
-				<div class="card d"></div>
-				<div class="card e"></div>
-				<div class="card f"></div>
+				<div class="card d">
+					<p class="desc">BALI, INDONESIA <br> DEC 21, 2018 - 7 DAYS</p>
+					<img class="arw" src="images/play.png"/>
+				</div>
+				<div class="card e">
+					<p class="desc">SOEUL, SOUTH KOREA <br> DEC 23, 2017 - 3 DAYS</p>
+					<img class="arw" src="images/play.png"/>
+				</div>
+				<div class="card f">
+					<p class="desc">SHANGHAI, CHINA <br> JAN 8, 2018 - 8 DAYS</p>
+					<img class="arw" src="images/play.png"/>
+				</div>
 			</div>
 		</div>
 	</div>
