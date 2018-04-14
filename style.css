@@ -24,6 +24,7 @@
 	background: linear-gradient(300deg, #F896FB 5%, #D2B0FA 30%, #89E4F9 100%);
 
 	padding-bottom: 100px; 
+	overflow: hidden;
 }
 
 #home{
@@ -36,12 +37,12 @@
 #logo{
 	height: 30px;
 	width: 30px;
-	padding-left: 20px;
+	padding-left: 1.4em;
 }
 
 #main{
 	background-color: white;
-	max-width: 80%;
+	width: 1080px;
 	height:1020px;
 	border-radius:15px;
 	margin: 0 auto;
