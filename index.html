@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Xcite App</title>
+	<title>Home / Xcite</title>
+	<link rel="icon" href="images/diamond-favicon.png" type="image/png" sizes="16x16">
 	<link rel="stylesheet" type="text/css" href="style.css?<?php echo date('l jS \of F Y h:i:s A'); ?>"/> <!-- try to add current date/time to prevent CSS caching  -->
 </head>
 <body>
@@ -13,13 +14,17 @@
 		<div id="main">
 			<p id="header">XCITE</p>
 			<div id="mntn"></div>
-			<p id="head1">NEW</p>
-			<p id="x">X</p>
-			<p id="perience">perience</p>
-			<div id="boat"></div>
+			<div id="header-text-container">
+				<p id="head1">NEW</p>
+				<p id="x">X</p>
+				<p id="perience">perience</p>
+			</div>
+			<div id="boat">
+				<div id="blur"></div>
+			</div>
 
-			<div>
-				<input id="search" type="text" name="destination" placeholder="    Destination">
+			<div class="search-container">
+				<input id="search" type="text" name="destination" placeholder="  Destination">
 				<img class="finder" src="images/finder.png"/>
 				<img class="home" src="images/home.png"/>
 				<img class="bag" src="images/bag.png"/>
@@ -34,30 +39,30 @@
 				<div class="card a">
 					<img class="img1" src="images/m1.jpg"/>
 					<img class="img1" src="images/f1.jpg"/>
-					<p class="desc">are flying to <br>WHISTLER BLACK COMB, CANADA <br> DEC 12, 2017 - 6 DAYS</p>
+					<p class="desc">are flying to <br><span class="location">WHISTLER BLACK COMB, CANADA</span><br> DEC 12, 2017 - 6 DAYS</p>
 					<img class="arw" src="images/right-arrow.png"/>
 				</div>
 				<div class="card b">
 					<img class="img1" src="images/m1.jpg"/>
-					<p class="desc">is flying to <br>HANOI, VIETNAM <br> DEC 21, 2017 - 7 DAYS</p>
+					<p class="desc">is flying to <br><span class="location">HANOI, VIETNAM</span> <br> DEC 21, 2017 - 7 DAYS</p>
 					<img class="arw" src="images/right-arrow.png"/>
 				</div>
 				<div class="card c">
 					<img class="img1" src="images/f1.jpg"/>
-					<p class="desc">is flying to <br>IBIZA, SPAIN <br> JAN 18, 2018 - 8 DAYS</p>
+					<p class="desc">is flying to <br><span class="location">IBIZA, SPAIN</span> <br> JAN 18, 2018 - 8 DAYS</p>
 					<img class="arw" src="images/right-arrow.png"/>
 				</div>
 				<div class="card d">
-					<p class="desc">BALI, INDONESIA <br> DEC 21, 2018 - 7 DAYS</p>
-					<img class="arw" src="images/play.png"/>
+					<p class="desc"><span class="location">BALI, INDONESIA</span> <br> DEC 21, 2018 - 7 DAYS</p>
+					<div class="play-arw"><img class="play" src="images/play-arrow.png"></div>
 				</div>
 				<div class="card e">
-					<p class="desc">SOEUL, SOUTH KOREA <br> DEC 23, 2017 - 3 DAYS</p>
-					<img class="arw" src="images/play.png"/>
+					<p class="desc"><span class="location">SOEUL, SOUTH KOREA</span> <br> DEC 23, 2017 - 3 DAYS</p>
+					<div class="play-arw"><img class="play" src="images/play-arrow.png"></div>
 				</div>
 				<div class="card f">
-					<p class="desc">SHANGHAI, CHINA <br> JAN 8, 2018 - 8 DAYS</p>
-					<img class="arw" src="images/play.png"/>
+					<p class="desc"><span class="location">SHANGHAI, CHINA</span> <br> JAN 8, 2018 - 8 DAYS</p>
+					<div class="play-arw"><img class="play" src="images/play-arrow.png"></div>
 				</div>
 			</div>
 		</div>
