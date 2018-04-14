@@ -42,7 +42,7 @@
 #main{
 	background-color: white;
 	max-width: 80%;
-	height:980px;
+	height:1020px;
 	border-radius:15px;
 	margin: 0 auto;
 }
@@ -161,7 +161,7 @@ input[type=text]:focus{
 	width: 100%;
 
 	border: 0px solid red;
-	margin: 100px auto;
+	margin: 140px auto;
 	text-align: center;
 }
 
@@ -288,10 +288,16 @@ input[type=text]:focus{
 .arw{
 	width: 35px;
 	height: 35px;
+
 	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+
 	float:right;
 	position:relative;
 	margin: -45px 15px 0px 0px;
+
+	opacity: 0.85;
 }
 
 .play-arw{
@@ -340,7 +346,8 @@ input[type=text]:focus{
 	border: 1px solid #ffffffff;
 
 	box-sizing: border-box;
-	padding-left: 15px;
+	padding-left: 0px;
+	text-align: center;
 }
 
 #x{
@@ -353,7 +360,7 @@ input[type=text]:focus{
 	-moz-text-fill-color: transparent;
 	-webkit-text-fill-color: transparent;
 
-	margin: 40px 0px 0px 235px;
+
 	font-size: 110px;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
@@ -363,7 +370,7 @@ input[type=text]:focus{
 }
 
 #perience{
-	margin: 106px 0px 0px 15px;
+	margin: 0px 0px 0px 15px;
 	font-variant: small-caps;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
@@ -377,20 +384,29 @@ input[type=text]:focus{
 
 #head1{
 	width: 50px;
-	margin-top: -140px;
-	margin-left: 335px;
+	margin-top: -90px;
+	margin-left: 362px;
+	margin-bottom: 0px;
 
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
-	font-weight: bold;
+	font-weight: 900;
 	
 	letter-spacing: 4px;
 	color: lightgrey;
-	border: 1px solid red;
 
-	position: relative;
-	z-index: 1003;
+	display: block;
+	border: 0px solid red;
+}
+
+#head2{
+	height: auto; 
+	width: 100%; 
+	margin-top: -45px;
+	
+	display: block;
+	border: 0px solid red;	
 }
 
 .finder{
